@@ -1,0 +1,74 @@
+/* body {
+  background-color: black;
+  color:white;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
+
+body {
+  text-align: center;
+  background-color: white;
+  color:white;
+}
+
+
+.board {
+  margin: auto;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  /* background-color: rgb(53, 22, 228) */
+}
+
+h1 {
+  margin-top: 0px;
+  margin: auto;
+    color: rgb(12, 12, 12);
+    /* color: rgb(102, 104, 221); */
+    background-color: rgb(0, 152, 190);
+  /* float:right; */
+}
+
+h2 {
+  /* position: absolute; */
+    text-align: center;
+  margin: auto;
+  /* margin-top: 50px; */
+  padding: 5px;
+  top: 2px;
+  background-image: linear-gradient( rgb(0, 3, 7), rgb(0, 2, 3));
+  /* float:left ; */
+  margin-left: 7ghost10px;
+}
+
+.cell {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: 2.5em;
+  background-color: rgb(9, 105, 117);
+}
+
+.wall {
+  background-image:linear-gradient(rgb(102, 101, 101), rgb(47, 47, 47));
+  color: rgb(92, 151, 151, 0);
+}
+
+.floor {
+  background-image: radial-gradient( rgb(153, 255, 0), rgb(126, 200, 15));
+  color: red;
+}
+
+.hide {
+  display: none;
+}
